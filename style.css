@@ -1,0 +1,132 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #f7fafc;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  background: #e7f1fc;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+header .profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4682b4;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.3rem;
+  color: #23446e;
+}
+
+h3 {
+  color: #4682b4;
+  margin-top: 0;
+}
+
+.intro {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+nav {
+  background: #23446e;
+  padding: 0.5rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 4px rgba(60,80,120,0.06);
+}
+
+h2 {
+  color: #23446e;
+  border-bottom: 2px solid #4682b4;
+  padding-bottom: 0.3rem;
+}
+
+.project {
+  margin-bottom: 2rem;
+}
+
+.project-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.3rem;
+  background: #4682b4;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  transition: background 0.2s;
+}
+
+.resume-btn:hover {
+  background: #23446e;
+}
+
+.skills-list ul {
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  color: #555;
+  border-left: 4px solid #4682b4;
+  margin: 1.2rem 0;
+  padding: 0.5rem 1rem;
+  background: #f2f6fa;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  background: #23446e;
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.disabled-link {
+  color: #aaa !important;
+  text-decoration: line-through;
+  pointer-events: none;
+}
